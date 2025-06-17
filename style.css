@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+.services, .gallery, .faq, .map {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service {
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.02);
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.details {
+    display: none;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: #dbeafe;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-button:hover {
+    background: #bfdbfe;
+}
+
+.accordion-content {
+    display: none;
+    padding: 0 1rem 1rem 1rem;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e3a8a;
+    color: white;
+}
