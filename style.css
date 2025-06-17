@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.services, .gallery, .faq {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gallery-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    background: #444;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
